@@ -14,7 +14,7 @@ export class AppComponent {
     translate.setDefaultLang('en');
 
     // the lang to use, if the lang isn't available, it will use the current loader to get them
-    // translate.use('en');
-    translate.use('fr');
+    translate.use('en');
+    // translate.use('fr');
   }
 }

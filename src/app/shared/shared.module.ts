@@ -4,6 +4,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TranslateModule } from '@ngx-translate/core';
 
 import { MaterialModule } from './material.module';
+import { AddressFormComponent } from './address-form/address-form.component';
 
 @NgModule({
   imports: [
@@ -13,8 +14,9 @@ import { MaterialModule } from './material.module';
     FormsModule,
     ReactiveFormsModule,
   ],
-  declarations: [],
+  declarations: [AddressFormComponent],
   exports: [
+    AddressFormComponent,
     MaterialModule,
     TranslateModule,
     CommonModule,
