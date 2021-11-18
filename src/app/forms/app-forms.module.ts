@@ -5,5 +5,6 @@ import { SimpleformComponent } from './simpleform/simpleform.component';
 @NgModule({
   declarations: [SimpleformComponent],
   imports: [SharedModule],
+  exports: [SharedModule],
 })
 export class AppFormsModule {}

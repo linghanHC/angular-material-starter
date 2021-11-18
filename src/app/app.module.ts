@@ -9,6 +9,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { LandingpageComponent } from './landingpage/landingpage.component';
 import { AboutComponent } from './about/about.component';
 import { AppFormsModule } from './forms/app-forms.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -29,6 +30,7 @@ export function createTranslateLoader(http: HttpClient) {
     }),
     AppRoutingModule,
     AppFormsModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
